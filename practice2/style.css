@@ -1,0 +1,72 @@
+body {
+  font-family: "Encode Sans SC", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: -10px 0px;
+}
+
+.navbar {
+  margin: 10px 100px;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  float: right;
+}
+.navbar ul li {
+  margin: 10px;
+}
+.name {
+  display: inline-block;
+  margin: 10px;
+}
+.special-font {
+  font-family: "Encode Sans SC", sans-serif;
+}
+.flexible-area {
+  display: flex;
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+  padding: 0%;
+}
+.intro-text {
+  padding: 5%;
+}
+#intro-section {
+  background-color: rgb(142 116 116 / 18%);
+}
+#service-section {
+}
+section {
+  margin-bottom: 100px;
+}
+.link-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(
+    rgba(44, 44, 49, 0.932),
+    rgba(0, 0, 255, 0.822)
+  );
+  padding: 10px 40px;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.text-center {
+  text-align: center;
+}
+.service-item {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  border: 1px dotted black;
+  padding: 2%;
+  box-shadow: 10px 10px 20px gray;
+}
+hr {
+  width: 50%;
+  border: 2px solid gray;
+}
